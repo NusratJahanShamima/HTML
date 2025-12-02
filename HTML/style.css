@@ -1,17 +1,21 @@
-h1 {
-    color: red;
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* choose any: 100–900 */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-p {
-    font-size: 40px;
-    color: blue;
-    text-align: center;
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* choose any: 100–900 */
+  font-style: normal;
 }
 
-.ict19 {
-    color: green;
-}
-
-#it22017 {
-    color: orange;
+.carousel-item img {
+  height: 80vh;
+  width:60vh;
 }
